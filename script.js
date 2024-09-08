@@ -27,7 +27,7 @@ function pesquisar() {
             // Cria um novo elemento
         resultado += `
         <div class="item-resultado">
-            <p class="descricao-meta">${dado.modalidade}</p>
+            <p>${dado.modalidade}</p>
             <h3>${dado.titulo}</h3>
             <p class="descricao-meta">${dado.descricao}</p>
             <a href="${dado.link}" target="_blank">Saiba mais sobre a carreira do atleta.</a>
